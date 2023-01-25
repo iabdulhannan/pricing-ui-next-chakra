@@ -11,7 +11,7 @@ import {
 } from '@chakra-ui/react';
 import { CheckIcon } from '../icons/icons';
 
-export const ListItem = (props: StackProps) => {
+const ListItem = (props: StackProps) => {
   const { children, ...rest } = props;
   return (
     <HStack as='li' spacing='5' {...rest} align='flex-start'>
@@ -21,7 +21,7 @@ export const ListItem = (props: StackProps) => {
   );
 };
 
-export function Pricing() {
+export default function Pricing() {
   return (
     <Box mx='6' as='section'>
       <Box

@@ -4,9 +4,9 @@ import { Inter } from '@next/font/google'
 import styles from 'pricingRoot/styles/Home.module.css'
 import React from "react";
 import {Box} from "@chakra-ui/react";
-import {Pricing} from "pricingRoot/pages/components/Pricing";
-import {Features} from "pricingRoot/pages/components/Features";
-import {Header} from "pricingRoot/pages/components/Header";
+import Header from "pricingRoot/pages/components/Header";
+import Pricing from "pricingRoot/pages/components/Pricing";
+import Features from "pricingRoot/pages/components/Features";
 
 export default function Home() {
   return (

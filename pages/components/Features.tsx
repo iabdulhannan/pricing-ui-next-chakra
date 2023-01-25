@@ -21,7 +21,7 @@ function Feature(props: FeatureProps) {
   );
 }
 
-export function Features() {
+export default function Features() {
   return (
     <Box maxW='1024px' m='auto' pt='60px' pb='8' as='section'>
       <Stack
